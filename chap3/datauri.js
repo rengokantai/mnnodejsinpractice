@@ -8,4 +8,5 @@ var data = fs.readFileSync('./monkey.png').toString(encoding);
 
 var uri = mime + " "+encoding+" " +data;
 console.log(uri);
+//
 
